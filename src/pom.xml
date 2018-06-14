@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>  <!-- maven版本，此值固定 -->
+
+    <!-- 项目 -->
+    <groupId>org.gpf.maventest01</groupId><!--项目包名-->
+    <artifactId>maventest01</artifactId>  <!-- 模块名，建议使用项目名 -->
+    <version>0.0.1SNAPSHOT</version>    <!--版本，此处为快照版本-->
+
+    <!-- 依赖 -->
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.10</version>
+        </dependency>
+    </dependencies>
+</project>
